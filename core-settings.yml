@@ -8,8 +8,8 @@ Metrics/LineLength:
   IgnoreCopDirectives: true
 Metrics/MethodLength:
   Max: 30
-Metrics/ParameterLists:
-  CountKeywordArgs: false
+Metrics/ParameterLists:   # keep limit of 5 for positional arguments
+  CountKeywordArgs: false # but allow unlimited named parameters to encourage explicit options
 
 Style/BracesAroundHashParameters:
   EnforcedStyle: braces
@@ -17,7 +17,7 @@ Style/CollectionMethods:
   Enabled: true
 Style/EmptyMethod:
   EnforcedStyle: expanded
-Style/OptionHash:
+Style/OptionHash: # prefer explicitly named keyword parameters
   Enabled: true
 Style/RegexpLiteral:
   EnforcedStyle: slashes
