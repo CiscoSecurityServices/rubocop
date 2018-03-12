@@ -1,0 +1,22 @@
+Layout/EndOfLine:
+  EnforcedStyle: lf
+Layout/IndentHash:
+  EnforcedStyle: consistent
+Metrics/LineLength:
+  Max: 100
+  IgnoreCopDirectives: true
+Metrics/MethodLength:
+  Max: 30
+Style/BracesAroundHashParameters:
+  EnforcedStyle: braces
+Style/CollectionMethods:
+  Enabled: true
+Style/OptionHash:
+  Enabled: true
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
+Style/SymbolArray:
+  EnforcedStyle: brackets
+Style/WordArray:
+  EnforcedStyle: brackets
