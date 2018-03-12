@@ -2,11 +2,15 @@ Layout/EndOfLine:
   EnforcedStyle: lf
 Layout/IndentHash:
   EnforcedStyle: consistent
+
 Metrics/LineLength:
   Max: 100
   IgnoreCopDirectives: true
 Metrics/MethodLength:
   Max: 30
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
 Style/BracesAroundHashParameters:
   EnforcedStyle: braces
 Style/CollectionMethods:
