@@ -7,7 +7,12 @@ Read about rubocop inheritance [here](http://rubocop.readthedocs.io/en/latest/co
 
 In your project's `.rubocop.yml` file, use `inherit_from:` on the first line to reference the central config file for your desired Ruby version:
 
-`inherit_from: https://wwwin-github.cisco.com/Corona/rubocop/blob/master/rubocop-2.3.yml`
+```
+inherit_from:
+  - https://wwwin-github.cisco.com/raw/Corona/rubocop/master/rubocop-2.3.yml
+
+# local settings here if you need them
+```
 
 By linking to the master branch of the rubocop repository, each project will automatically receive updates to the shared
 configuration. This may cause subsequent PRs to fail until the new configuration is satisfied. However, "right this second"
