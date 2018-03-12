@@ -1,4 +1,4 @@
-inherit_from: core-settings.yml
+inherit_from: ./core-settings.yml
 
 AllCops:
   TargetRubyVersion: 2.3
