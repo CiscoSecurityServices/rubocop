@@ -1,5 +1,5 @@
 inherit_from:
-  - core-settings.yml
+  - https://wwwin-github.cisco.com/raw/Corona/rubocop/master/core-settings.yml
 
 AllCops:
   TargetRubyVersion: 2.3
