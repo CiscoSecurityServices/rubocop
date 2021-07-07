@@ -1,18 +1,20 @@
 Layout/EndOfLine:
   EnforcedStyle: lf
-Layout/IndentHash:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
-
-Metrics/LineLength:
-  Max: 100
+Layout/LineLength:
+  Max: 120
   IgnoreCopDirectives: true
+
+Metrics/ClassLength:
+  Max: 300
 Metrics/MethodLength:
   Max: 30
 Metrics/ParameterLists:   # keep limit of 5 for positional arguments
   CountKeywordArgs: false # but allow unlimited named parameters to encourage explicit options
 
-Style/BracesAroundHashParameters:
-  EnforcedStyle: braces
+Style/Documentation:
+  Enabled: false
 Style/CollectionMethods:
   Enabled: true
 Style/EmptyMethod:
