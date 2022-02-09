@@ -19,6 +19,8 @@ Metrics/CyclomaticComplexity:
 Metrics/PerceivedComplexity:
   Max: 10
 
+Style/ConditionalAssignment:
+  Enabled: false # assign_inside_condition if any
 Style/Documentation:
   Enabled: false
 Style/CollectionMethods:
