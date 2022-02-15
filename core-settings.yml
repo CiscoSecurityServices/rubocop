@@ -3,14 +3,16 @@ Layout/EndOfLine:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 Layout/LineLength:
-  Max: 120
+  Max: 150
   IgnoreCopDirectives: true
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
 
 Metrics/ClassLength:
   Max: 300
 Metrics/MethodLength:
   Max: 30
-Metrics/ParameterLists:   # keep limit of 5 for positional arguments
+Metrics/ParameterLists: # keep limit of 5 for positional arguments
   CountKeywordArgs: false # but allow unlimited named parameters to encourage explicit options
 Metrics/AbcSize:
   Max: 35
@@ -20,7 +22,7 @@ Metrics/PerceivedComplexity:
   Max: 10
 
 Style/ConditionalAssignment:
-  Enabled: false # assign_inside_condition if any
+  Enabled: assign_inside_condition
 Style/Documentation:
   Enabled: false
 Style/CollectionMethods:
