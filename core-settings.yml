@@ -22,7 +22,7 @@ Metrics/PerceivedComplexity:
   Max: 10
 
 Style/ConditionalAssignment:
-  Enabled: assign_inside_condition
+  EnforcedStyle: assign_inside_condition
 Style/Documentation:
   Enabled: false
 Style/CollectionMethods:
