@@ -22,7 +22,8 @@ Metrics/PerceivedComplexity:
   Max: 10
 
 Style/ConditionalAssignment:
-  EnforcedStyle: assign_inside_condition
+  Enabled: false # this rule is dumb b/c it also includes (.. ? .. : ..) who would want to assign inside the condition here???
+  # EnforcedStyle: assign_inside_condition
 Style/Documentation:
   Enabled: false
 Style/CollectionMethods:
