@@ -41,3 +41,6 @@ Style/OpenStructUse:
 
 Gemspec/RequireMFA:
   Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
