@@ -38,6 +38,8 @@ Style/WordArray:
   EnforcedStyle: brackets
 Style/OpenStructUse:
   Enabled: false
+Style/YodaExpression:
+  Enabled: false
 
 Gemspec/RequireMFA:
   Enabled: false
