@@ -9,7 +9,7 @@ In your project's `.rubocop.yml` file, use `inherit_from:` on the first line to 
 
 ```
 inherit_from:
-  - https://wwwin-github.cisco.com/raw/Corona/rubocop/master/rubocop-2.3.yml
+  - https://wwwin-github.cisco.com/raw/Corona/rubocop/master/rubocop-3.3.yml
 
 # local settings here if you need them
 ```
