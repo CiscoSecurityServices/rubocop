@@ -3,13 +3,13 @@ One rubocop config to rule them all
 
 ## Usage
 
-Read about rubocop inheritance [here](http://rubocop.readthedocs.io/en/latest/configuration/#inheritance).
+Read about rubocop inheritance [here](https://docs.rubocop.org/rubocop/configuration.html#inheriting-configuration-from-a-remote-url).
 
 In your project's `.rubocop.yml` file, use `inherit_from:` on the first line to reference the central config file for your desired Ruby version:
 
 ```
 inherit_from:
-  - https://wwwin-github.cisco.com/raw/Corona/rubocop/master/rubocop-2.3.yml
+  - https://github.com/CiscoSecurityServices/rubocop/blob/master/rubocop-3.3.yml
 
 # local settings here if you need them
 ```
