@@ -1,0 +1,6 @@
+inherit_from:
+  - ./rubocop-3.1.yml
+AllCops:
+  NewCops: enable
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented

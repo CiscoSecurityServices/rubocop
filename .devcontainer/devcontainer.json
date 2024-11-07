@@ -1,0 +1,39 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/docker-existing-docker-compose
+// If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml.
+{
+    "name": "Corona OnPrem Deploy Devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/usr/src/app,type=bind",
+    "workspaceFolder": "/usr/src/app",
+    "mounts": [
+    ],
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2.4.3": {
+            "installZsh": true,
+            "installOhMyZsh": true
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2.11.0": {
+            "version": "latest",
+            "moby": true
+        },
+        "ghcr.io/devcontainers/features/git:1": {
+            "version": "2.39.3"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "eamodio.gitlens",
+                "hashicorp.terraform"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            }
+        }
+    }
+}
