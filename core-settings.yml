@@ -52,5 +52,5 @@ Naming/VariableNumber:
 # while i agree with this, we should use `?` for methods that return a boolean 
 # if the method does other stuff and happens to return a boolean we should NOT use `?`
 # so disabling this b/c its a terrible check
-Naming/PredicateName:
+Naming/PredicateMethod:
   Enabled: false 
